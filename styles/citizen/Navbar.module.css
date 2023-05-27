@@ -1,0 +1,68 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    background-image: linear-gradient(to right top, #051937, #00253c, #002f32, #033522, #2e3916);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ccfbfc;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    height: 10px;
+    margin-right: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdownMenu {
+    display: block;
+  }
+  
+  .dropdownMenu li {
+    margin: 0;
+  }
+  
+  .dropdownMenu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .dropdownMenu li a:hover {
+    background-color: #f5f5f5;
+  }
